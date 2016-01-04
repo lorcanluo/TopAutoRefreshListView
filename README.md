@@ -5,7 +5,7 @@
 ## 使用方法
 普通的使用方法和ListView一样，额外添加了两个方法
 
-设置Listener:
+### 设置Listener:
 
 ```
        mListView.setOnTopRefreshListener(new TopAutoRefreshListView.OnTopRefreshListener() {
@@ -17,13 +17,15 @@
 
 ```
 
-停止刷新：
+你可以在onTopRefresh（）方法中，添加数据加载的方法.
+
+### 停止刷新：
 
 ```
  mListView.onTopRefreshFinished();
 ```
 
 
-##问题
+## 问题
 有什么问题，可以直接提交issus
 或则联系我 email <763736665@qq.com>
